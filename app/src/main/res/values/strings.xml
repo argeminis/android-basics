@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpoTmE</string>
+
+    <!-- TEXTO EN LOS BOTONES -->
+    <!-- Principal -->
+    <string name="b_lista_lugares">Lista</string>
+    <string name="b_mapa_lugares">Ver Mapa</string>
+    <string name="b_HARD_RESET">RESET - (BBDD)</string>
+
+    <!-- EditarLugar -->
+    <string name="b_crear_lugar">Crear</string>
+    <string name="b_guardaractualizar_lugar">Guardar</string>
+    <string name="b_eliminar_lugar">Eliminar</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripcion del lugar</string>
+
+    <!-- MostrarLugar -->
+    <string name="MOSTRAR_LUGAR">Menu de MOSTRAR LUGAR</string>
+    <string name="MOSTRAR_LUGAR_nombre">Nombre</string>
+    <string name="MOSTRAR_LUGAR_descripcion">Descripcion</string>
+    <string name="MOSTRAR_LUGAR_latitude">Latitude</string>
+    <string name="MOSTRAR_LUGAR_longitude">Longitude</string>
+    <string name="MOSTRAR_LUGAR_foto">Foto</string>
+    <string name="b_editar_lugar">Editar</string>
+
+    <!-- EditarLugar -->
+    <string name="EDITAR_LUGAR">Menu de EDITAR LUGAR</string>
+
+    <!-- ContentProvider -->
+    <string name="PROVIDER_EMPTY">Nada que mostrar (Proveedor de Contenidos vacío)</string>
+
+    <!-- EditandoLugar -->
+    <string name="EDITANDO_LUGAR">CAMBIOS:</string>
+    <string name="EDITANDO_LUGAR_nombre">Nombre:</string>
+    <string name="EDITANDO_LUGAR_descripcion">Descripcion:</string>
+    <string name="EDITANDO_LUGAR_latitude">Latitud:</string>
+    <string name="EDITANDO_LUGAR_longitude">Longitud:</string>
+    <string name="hint_nombre">(Nuevo nombre)</string>
+    <string name="hint_descripcion">(Nueva descripcion)</string>
+    <string name="hint_latitude">(Nueva latitud)</string>
+    <string name="hint_longitude">(Nueva longitud)</string>
+    <string name="txt_nombre_nuevo_lugar">Nombre:</string>
+    <string name="h_nombre">(nombre del nuevo lugar)</string>
+
+    <!-- Menu Principal -->
+    <string name="opc1_menu">Lista</string>
+    <string name="opc2_menu">Mapa</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

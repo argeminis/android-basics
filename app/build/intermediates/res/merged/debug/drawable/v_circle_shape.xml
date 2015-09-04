@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <corners
+        android:radius="600dp"/>
+
+    <size
+        android:height="100dp"
+        android:width="100dp"/>
+    
+</shape>
+<!-- From: file:/home/argenis/Android/android-Projects/TRABAJOFINALANDROID/app/src/main/res/drawable/v_circle_shape.xml -->

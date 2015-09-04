@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dip" >
+    		
+		<TextView 
+		android:id="@+id/mostrarlugar_nombre" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:text="@string/MOSTRAR_LUGAR_nombre"
+            android:layout_alignTop="@+id/button_editar_lugar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+				
+		<TextView android:id="@+id/mostrarlugar_descripcion" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+
+		android:text="@string/MOSTRAR_LUGAR_descripcion"
+            android:layout_below="@+id/mostrarlugar_nombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+		<ImageView
+	    android:id="@+id/mostrarlugar_imageview"
+	    android:layout_width="120dp"
+	    android:layout_height="120dp"
+	        android:layout_marginLeft="38dp"
+	        android:layout_marginStart="38dp"
+            android:layout_below="@+id/mostrarlugar_latitude"
+            android:layout_toRightOf="@+id/mostrarlugar_descripcion"
+            android:layout_toEndOf="@+id/mostrarlugar_descripcion"
+            android:layout_marginTop="42dp" />
+				
+		<ImageButton
+        android:id="@+id/button_editar_lugar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="sendMessage"
+        android:src="@mipmap/ic_edit"
+        style="@style/AppBaseTheme.Button_background"
+        android:text="@string/b_editar_lugar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" 
+            android:layout_alignParentEnd="true"/>
+
+		<TextView
+		    android:id="@+id/mostrarlugar_longitude"
+			android:layout_marginLeft="20dp"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/button_editar_lugar"
+		    android:layout_marginTop="14dp"
+		    android:layout_toRightOf="@+id/mostrarlugar_latitude"
+		    android:layout_toEndOf="@+id/mostrarlugar_latitude"
+		    android:text="@string/MOSTRAR_LUGAR_longitude" />
+
+		<TextView
+		    android:id="@+id/mostrarlugar_latitude"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/mostrarlugar_longitude"
+		    android:layout_alignBottom="@+id/mostrarlugar_longitude"
+		    android:layout_alignStart="@+id/mostrarlugar_nombre"
+		    android:layout_alignLeft="@+id/mostrarlugar_nombre"
+		    android:text="@string/MOSTRAR_LUGAR_latitude" />
+
+</RelativeLayout>

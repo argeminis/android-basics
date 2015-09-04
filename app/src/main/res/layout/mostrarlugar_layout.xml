@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" 
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    		
+		<TextView 
+		android:id="@+id/mostrarlugar_nombre" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:text="@string/MOSTRAR_LUGAR_nombre" />
+				
+		<TextView android:id="@+id/mostrarlugar_descripcion" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:text="@string/MOSTRAR_LUGAR_descripcion" />
+						
+		<TextView android:id="@+id/mostrarlugar_latitude" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:text="@string/MOSTRAR_LUGAR_latitude" />
+
+		<TextView android:id="@+id/mostrarlugar_longitude" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:text="@string/MOSTRAR_LUGAR_longitude" />
+
+		<ImageView
+	    android:id="@+id/mostrarlugar_imageview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	     />
+				
+		<ImageButton
+        android:id="@+id/button_editar_lugar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="sendMessage"
+        android:src="@mipmap/ic_edit"
+        style="@style/AppBaseTheme.Button_background"
+        android:text="@string/b_editar_lugar"/>
+	
+</LinearLayout>

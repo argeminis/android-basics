@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="horizontal" >
+    
+    <ImageButton
+        android:id="@+id/button_lista_lugares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:text="@string/b_lista_lugares"
+        android:src="@mipmap/ic_list"
+        style="@style/AppBaseTheme.Button_background"/>
+
+    <ImageButton
+        android:id="@+id/button_mapa_lugares"
+        style="@style/AppBaseTheme.Button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_locale"
+        android:text="@string/b_mapa_lugares" />
+
+    <ImageButton
+        android:id="@+id/button_HARD_RESET"
+        style="@style/AppBaseTheme.Button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_recreate"
+        android:text="@string/b_HARD_RESET" />
+
+</LinearLayout>
+
